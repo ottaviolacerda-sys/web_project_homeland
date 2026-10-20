@@ -1,0 +1,48 @@
+.header {
+  text-align: center;
+  margin: 34px auto 90px;
+}
+/*
+.header__title {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin: 0 auto 90.8px;
+}
+*/
+.header__logo-image {
+  display: flex;
+  justify-content: center;
+  max-width: 254px;
+  max-height: 70px;
+  margin: 0 auto;
+}
+.header__logo {
+  max-width: 254px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ===========================
+   BREAKPOINT 1024px
+=========================== */
+@media (max-width: 1024px) {
+  .header__logo-image {
+    height: 66px;
+    margin: 0 auto;
+  }
+}
+
+/* ===========================
+   BREAKPOINT 544px
+=========================== */
+@media (max-width: 544px) {
+  .header {
+    text-align: center;
+    margin: 34px auto 50px;
+  }
+  .header__logo {
+    max-width: 188px;
+    max-height: 52px;
+  }
+}

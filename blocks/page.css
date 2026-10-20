@@ -1,0 +1,27 @@
+:root {
+  --color-bg: #2a2c2f;
+  --color-text: #ffffff;
+  --color-accent: #cccccc;
+  --font-main: "Inter", sans-serif;
+}
+
+.page {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Breakpoints globais */
+@media (max-width: 1024px) {
+}
+@media (max-width: 544px) {
+}
+@media (max-width: 320px) {
+}

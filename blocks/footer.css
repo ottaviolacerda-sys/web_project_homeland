@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  margin: 0 auto 24px;
+  text-align: center;
+  max-width: 166px;
+  max-height: 16px;
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
