@@ -1,90 +1,48 @@
-# Tripleten web_project_homeland
+# De Pátria para Pátria
 
-Claro! Com base no que você me mostrou do Projeto 5 ("De Pátria para Pátria"), na estrutura em BEM, responsividade e tecnologias utilizadas, aqui está um README profissional que você pode adaptar ao seu repositório.
+Página responsiva criada como parte do curso de Desenvolvimento Web da TripleTen. O projeto apresenta histórias e imagens de pessoas de diferentes lugares e foi desenvolvido com HTML e CSS.
 
-Projeto 5 - De Pátria para Pátria
+## Tecnologias
 
-Este projeto foi desenvolvido como parte do programa de Desenvolvimento Web da TripleTen. O objetivo foi criar uma página responsiva baseada em um layout do Figma, aplicando boas práticas de HTML e CSS, metodologia BEM e design adaptável para diferentes tamanhos de tela.
+- HTML5
+- CSS3
+- Metodologia BEM para a organização das classes
+- Flexbox e media queries
+- Normalize.css
 
-📖 Sobre o projeto
+## Estrutura do projeto
 
-A página apresenta histórias e imagens relacionadas às cidades natais de pessoas de diferentes partes do mundo. O foco principal do projeto é reproduzir fielmente o layout fornecido no Figma e garantir uma experiência consistente em dispositivos desktop, tablet e mobile.
-
-🚀 Tecnologias utilizadas
-HTML5
-CSS3
-Metodologia BEM (Block Element Modifier)
-Flexbox
-Media Queries
-Normalize.css
-📁 Estrutura do projeto
-project-5/
-│
-├── images/
-│
-├── pages/
-│ └── index.css
-│
 ├── blocks/
-│ ├── page.css
+│ ├── footer.css
 │ ├── header.css
 │ ├── hero.css
-│ └── footer.css
-│
+│ └── page.css
+├── images/
+│ ├── kalegin-michail-179870-unsplash.jpg
+│ └── logo.png
+├── pages/
+│ └── index.css
 ├── vendor/
+│ ├── fonts.css
 │ ├── normalize.css
-│ └── fonts.css
-│
+│ └── fonts/
+├── favicon.ico
 ├── index.html
 └── README.md
 
-🎯 Funcionalidades
-Layout responsivo
-Estrutura semântica em HTML
-Organização de estilos por componentes
-Aplicação da metodologia BEM
-Imagens responsivas
-Compatibilidade com diferentes tamanhos de tela
-📱 Responsividade
+## Como visualizar
 
-O projeto foi otimizado para os seguintes pontos de referencias de tela:
+Como este é um projeto estático, não é necessário instalar dependências:
 
-Desktop: 1280px
-Tablet: 768px
-Mobile: 320px
+1. Baixe ou clone este repositório.
+2. Abra `index.html` no navegador.
 
-Foram utilizadas Media Queries para adaptar o conteúdo e os espaçamentos adequadamente em cada resolução.
+Para recarregar a página automaticamente durante o desenvolvimento, você também pode abrir o projeto com a extensão Live Server do VS Code.
 
-✅ Boas práticas aplicadas
-Uso de tags semânticas (header, main, section e footer)
-Configuração adequada de lang, charset e viewport
-Código organizado por blocos CSS
-Nomenclatura BEM para facilitar manutenção e escalabilidade
-Centralização e alinhamento responsivos
-Uso de variáveis CSS para cores principais
-🔧 Como executar o projeto
-Clone este repositório:
-git clone https://github.com/seu-usuario/seu-repositorio.git
+## Responsividade
 
-Acesse a pasta do projeto:
-cd seu-repositorio
+O layout usa media queries para se adaptar a diferentes larguras de tela, incluindo os breakpoints de 1024 px e 544 px.
 
-Abra o arquivo index.html no navegador.
+## Autor
 
-Ou utilize a extensão Live Server do VS Code para uma melhor experiência de desenvolvimento.
-
-📌 Aprendizados
-
-Durante o desenvolvimento deste projeto foram praticados conceitos importantes de:
-
-Estruturação semântica em HTML
-Responsividade
-Flexbox
-Organização de arquivos CSS
-Metodologia BEM
-Fidelidade a layouts do Figma
-👨‍💻 Autor
-
-Desenvolvido por Ottavio Lacerda como parte da formação em Desenvolvimento Web da TripleTen.
-
-⭐ Este projeto foi construído com foco em acessibilidade, organização de código e responsividade, seguindo as práticas recomendadas para desenvolvimento front-end da TripleTen.
+Ottavio Lacerda — projeto desenvolvido como parte da formação em Desenvolvimento Web da TripleTen.
