@@ -4,7 +4,6 @@
   --color-accent: #cccccc;
   --font-main: "Inter", sans-serif;
 }
-
 .page {
   margin: 0;
   background-color: var(--color-bg);
