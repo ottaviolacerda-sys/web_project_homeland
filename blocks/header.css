@@ -29,7 +29,6 @@
 @media (max-width: 1024px) {
   .header__logo-image {
     height: 66px;
-    margin: 0 auto;
   }
 }
 
@@ -38,7 +37,6 @@
 =========================== */
 @media (max-width: 544px) {
   .header {
-    text-align: center;
     margin: 34px auto 50px;
   }
   .header__logo {

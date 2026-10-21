@@ -39,7 +39,7 @@ Como este é um projeto estático, não é necessário instalar dependências:
 
 Para recarregar a página automaticamente durante o desenvolvimento, você também pode abrir o projeto com a extensão Live Server do VS Code.
 
-Link para o para o projeto no GitHub Pages: https://ottaviolacerda-sys.github.io/web_project_homeland/
+Link para o projeto no GitHub Pages: https://ottaviolacerda-sys.github.io/web_project_homeland/
 
 ## Responsividade
 
