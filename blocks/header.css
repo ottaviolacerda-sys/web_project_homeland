@@ -2,14 +2,7 @@
   text-align: center;
   margin: 34px auto 90px;
 }
-/*
-.header__title {
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-weight: 900;
-  margin: 0 auto 90.8px;
-}
-*/
+
 .header__logo-image {
   display: flex;
   justify-content: center;
