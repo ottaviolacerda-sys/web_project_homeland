@@ -41,6 +41,8 @@ web_project_homeland/
 
 │   ├── photo\-grid.css
 
+│   ├── place.css
+
 │   └── places.css
 
 │
